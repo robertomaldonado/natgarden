@@ -328,22 +328,28 @@ export default {
   data() {
     return {
       features: [
-        { 
-          icon: "...", 
-          title: "...", 
-          text: "..." 
+        {
+          icon: 'mdi-account-group-outline',
+          title: 'Communidad',
+          text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto cupiditate sint possimus quidem atque harum excepturi nemo velit tempora! Enim inventore fuga, qui ipsum eveniet facilis obcaecati corrupti asperiores nam',
         },
-        { 
-          icon: "...", 
-          title: "...", 
-          text: "..." 
+        {
+          icon: 'mdi-update',
+          title: 'Limpieza',
+          text: 'Sed justo. Suspendisse non justo enim. Vestibulum cursus mauris dui, a luctus ex blandit. Lorem ipsum dolor sit amet consectetur adipisicing elit. qui ipsum eveniet facilis obcaecati corrupti consectetur adipisicing elit.',
         },
-        { 
-          icon: "...", 
-          title: "...", 
-          text: "..." 
-        }
-      ]
+        {
+          icon: 'mdi-shield-outline',
+          title: 'Proteccion',
+          text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto cupiditate sint possimus quidem atque harum excepturi nemo velit tempora! Enim inventore fuga, qui ipsum eveniet facilis obcaecati corrupti asperiores nam',
+        },
+      ],
+      stats: [
+        ['20', 'Empresas'],
+        ['10', 'Conjuntos residenciales'],
+        ['33', 'Empresas'],
+        ['24+ Km', 'Cubiertos'],
+      ],
     }
   },
   components: {
@@ -356,5 +362,8 @@ export default {
 <style scoped>
 #id {
  width: 100%
+}
+.v-application .font-weight-black {
+  font-weight: 900!important;
 }
 </style>
