@@ -1,0 +1,6 @@
+To deploy, I have used firebase project natgarden-alpha.
+
+To generate the dist/ directory, use "yarn generate"
+To set up, use "firebase init"
+To test locally, use "firebase serve"
+To deploy, use "firebase deploy"
