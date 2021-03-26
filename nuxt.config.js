@@ -37,13 +37,30 @@ export default {
 
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
+    [
+      '@nuxtjs/firebase',
+      {
+        config: {
+          apiKey: 'AIzaSyD0oCEHiyLQP13ocjqBT_ElY7UTTKW-FOY',
+          authDomain: 'natgarden-ec.firebaseapp.com',
+          projectId: 'natgarden-ec',
+          storageBucket: 'natgarden-ec.appspot.com',
+          messagingSenderId: '145013440283',
+          appId: '1:145013440283:web:8125b1798121676a125dbe',
+          measurementId: 'G-TL2JNJSGHK'
+        },
+        services: {
+          performance: true
+        }
+      }
+    ]
   ],
 
   // Vuetify module configuration: https://go.nuxtjs.dev/config-vuetify
   vuetify: {
     customVariables: ['~/assets/variables.scss'],
     theme: {
-      dark: true,
+      dark: false,
       themes: {
         dark: {
           primary: colors.blue.darken2,
