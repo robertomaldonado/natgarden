@@ -79,7 +79,7 @@
             :min-height="'calc(100vh - ' + $vuetify.application.top + 'px)'"
             src="https://storage.googleapis.com/natgarden-alpha/paisaje.jpg"
           >
-            <v-theme-provider dark>
+            <v-theme-provider>
               <v-container fill-height>
                 <v-row
                   align="center"
@@ -100,10 +100,8 @@
                     <br>
                     <span
                       :class="[$vuetify.breakpoint.smAndDown ? 'display-3': 'display-4']"
-                      class="font-weight-black"
-                    >
-                      NATGAREN
-                    </span>
+                      class="font-weight-white"
+                    >NATGARDEN</span>
                   </v-col>
                   <v-btn
                     class="align-self-end"
@@ -166,8 +164,7 @@
         <div class="py-12"></div>
 
         <v-container class="text-center">
-          <h2 class="display-2 font-weight-bold mb-3">NUESTROS TRABAJOS</h2>
-
+          <h2 class="display-2 font-weight-black mb-3">NUESTROS SERVICIOS</h2>
           <v-responsive
             class="mx-auto mb-12"
             width="56"
@@ -236,7 +233,7 @@
               >
                 <div class="text-center">
                   <div
-                    class="display-3 font-weight-black mb-4"
+                    class="display-3 font-weight-white mb-4"
                     v-text="value"
                   ></div>
 
@@ -251,7 +248,7 @@
         </v-parallax>
       </section>
       <!--  -->
-      <v-sheet
+      <!-- <v-sheet
         id="contact"
         color="#333333"
         dark
@@ -315,7 +312,7 @@
         </v-container>
 
         <div class="py-12"></div>
-      </v-sheet>
+      </v-sheet> -->
       <!--  -->
     </section>
 </template>
@@ -363,7 +360,15 @@ export default {
 #id {
  width: 100%
 }
-.v-application .font-weight-black {
+.font-weight-black {
   font-weight: 900!important;
+  color:black;
+}
+.font-weight-white {
+  font-weight: 900!important;
+  color:white;
+}
+.font-black{
+  color:black;
 }
 </style>
