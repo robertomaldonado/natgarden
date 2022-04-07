@@ -190,7 +190,7 @@
                 <v-theme-provider dark>
                   <div>
                     <v-avatar
-                      color="primary"
+                      color="green"
                       size="88"
                     >
                       <v-icon
@@ -327,32 +327,32 @@ export default {
     return {
       features: [
         {
-          icon: 'mdi-account-group-outline',
+          icon: 'mdi-car-convertible',
           title: 'Mantenimiento',
           text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto cupiditate sint possimus quidem atque harum excepturi nemo velit tempora! Enim inventore fuga, qui ipsum eveniet facilis obcaecati corrupti asperiores nam',
         },
         {
-          icon: 'mdi-update',
+          icon: 'mdi-pencil',
           title: 'Diseño',
           text: 'Sed justo. Suspendisse non justo enim. Vestibulum cursus mauris dui, a luctus ex blandit. Lorem ipsum dolor sit amet consectetur adipisicing elit. qui ipsum eveniet facilis obcaecati corrupti consectetur adipisicing elit.',
         },
         {
-          icon: 'mdi-shield-outline',
+          icon: 'mdi-bug',
           title: 'Fumigación Fitosanitaria',
           text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto cupiditate sint possimus quidem atque harum excepturi nemo velit tempora! Enim inventore fuga, qui ipsum eveniet facilis obcaecati corrupti asperiores nam',
         },
         {
-          icon: 'mdi-shield-outline',
+          icon: 'mdi-water',
           title: 'Fertilización',
           text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto cupiditate sint possimus quidem atque harum excepturi nemo velit tempora! Enim inventore fuga, qui ipsum eveniet facilis obcaecati corrupti asperiores nam',
         },
         {
-          icon: 'mdi-shield-outline',
+          icon: 'mdi-leaf',
           title: 'Venta de plantas',
           text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto cupiditate sint possimus quidem atque harum excepturi nemo velit tempora! Enim inventore fuga, qui ipsum eveniet facilis obcaecati corrupti asperiores nam',
         },
         {
-          icon: 'mdi-shield-outline',
+          icon: 'mdi-human-child',
           title: 'Instalación areas lúdicas',
           text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto cupiditate sint possimus quidem atque harum excepturi nemo velit tempora! Enim inventore fuga, qui ipsum eveniet facilis obcaecati corrupti asperiores nam',
         },
