@@ -9,13 +9,17 @@
         color="grey lighten-5"
         size="50"
       >
-        <v-img
+        <!-- <v-img
           contain
           max-height="70%"
           src="https://cdn.vuetifyjs.com/images/logos/vuetify-logo-dark.png"
-        ></v-img>
+        ></v-img> -->
+        <img
+          max-height="70%"
+          src="~/assets/logo.png"
+        />
       </v-avatar>
-      <v-toolbar-title class="font-weight-black headline">
+      <v-toolbar-title class="headline green--text">
         NATGARDEN
       </v-toolbar-title>
     </v-app-bar>

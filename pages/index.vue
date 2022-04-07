@@ -95,7 +95,7 @@
                     :class="[$vuetify.breakpoint.smAndDown ? 'display-1' : 'display-2']"
                       class="font-weight-light"
                     >
-                      NATURAL GARDENS
+                      Mantenimiento de areas verdes
                     </span>
                     <br>
                     <span
@@ -121,7 +121,7 @@
       <section id="about-me">
         <div class="py-12"></div>
         <v-container class="text-center">
-          <h2 class="display-2 font-weight-bold mb-3">TRAYECTORIA</h2>
+          <h2 class="display-2 font-weight-bold mb-3">SOBRE NOSOTROS</h2>
           <v-responsive
             class="mx-auto mb-8"
             width="56"
@@ -134,7 +134,8 @@
             class="mx-auto title font-weight-light mb-8"
             max-width="720"
           >
-          Gumbo beet greens corn soko endive gumbo gourd. Parsley shallot courgette tatsoi pea sprouts fava bean collard greens dandelion okra wakame tomato. Dandelion cucumber earthnut pea peanut soko zucchini.
+          Natgarden se dedicada a prestar servicios de diseño y mantenimiento de jardines en forma profesional, es decir dando consejo e información como las necesidades de las diferentes plantas, cómo, cuándo y por qué deben hacerse diferentes tareas y las rutinas del jardín. 
+          Adicionalmente ofrecemos una labor eficiente y completa honestidad, buscando su completo agrado.
           </v-responsive>
           <!-- <v-avatar
             class="elevation-12 mb-12"
@@ -327,17 +328,32 @@ export default {
       features: [
         {
           icon: 'mdi-account-group-outline',
-          title: 'Communidad',
+          title: 'Mantenimiento',
           text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto cupiditate sint possimus quidem atque harum excepturi nemo velit tempora! Enim inventore fuga, qui ipsum eveniet facilis obcaecati corrupti asperiores nam',
         },
         {
           icon: 'mdi-update',
-          title: 'Limpieza',
+          title: 'Diseño',
           text: 'Sed justo. Suspendisse non justo enim. Vestibulum cursus mauris dui, a luctus ex blandit. Lorem ipsum dolor sit amet consectetur adipisicing elit. qui ipsum eveniet facilis obcaecati corrupti consectetur adipisicing elit.',
         },
         {
           icon: 'mdi-shield-outline',
-          title: 'Proteccion',
+          title: 'Fumigación Fitosanitaria',
+          text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto cupiditate sint possimus quidem atque harum excepturi nemo velit tempora! Enim inventore fuga, qui ipsum eveniet facilis obcaecati corrupti asperiores nam',
+        },
+        {
+          icon: 'mdi-shield-outline',
+          title: 'Fertilización',
+          text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto cupiditate sint possimus quidem atque harum excepturi nemo velit tempora! Enim inventore fuga, qui ipsum eveniet facilis obcaecati corrupti asperiores nam',
+        },
+        {
+          icon: 'mdi-shield-outline',
+          title: 'Venta de plantas',
+          text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto cupiditate sint possimus quidem atque harum excepturi nemo velit tempora! Enim inventore fuga, qui ipsum eveniet facilis obcaecati corrupti asperiores nam',
+        },
+        {
+          icon: 'mdi-shield-outline',
+          title: 'Instalación areas lúdicas',
           text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto cupiditate sint possimus quidem atque harum excepturi nemo velit tempora! Enim inventore fuga, qui ipsum eveniet facilis obcaecati corrupti asperiores nam',
         },
       ],
